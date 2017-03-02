@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="hr_manager" label="Manager" language="en" table="x_figin_ats_job">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hr_manager</element>
+            <help/>
+            <hint/>
+            <label>Manager</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <plural>Managers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 17:13:29</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>38194a620ffc3200e304059ce1050e6b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Manager</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_documentation_x_figin_ats_job_hr_manager_en</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-28 03:18:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="expected_publish_date" label="Expected Publish Date" language="en" table="x_figin_ats_job">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>expected_publish_date</element>
+            <help/>
+            <hint/>
+            <label>Expected Publish Date</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <plural>Expected Publish Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:10:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>3826daa60ffc3200e304059ce1050e37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Expected Publish Date</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_documentation_x_figin_ats_job_expected_publish_date_en</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:10:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

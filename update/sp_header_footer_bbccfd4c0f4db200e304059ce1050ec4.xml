@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>ats_footer</id>
+        <internal>false</internal>
+        <link/>
+        <name>ATS Footer Static</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-15 08:11:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>bbccfd4c0f4db200e304059ce1050ec4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ATS Footer Static</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_header_footer_bbccfd4c0f4db200e304059ce1050ec4</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-15 08:53:38</sys_updated_on>
+        <template><![CDATA[	<div style="background-color: #1E2130; height:40px; vertical-align: middle; padding-top:10px;">
+      <table>
+        <tr style="padding-top:10px; vertical-align: middle;">
+          <td style="padding-left:25px; ">
+            &copy; CoFigure Inc. All Rights Reserved
+          </td >
+          <td style="padding-left:700px;">
+            Follow Us  <a ng-href="https://www.linkedin.com/company/integrhythm-inc" target="_blank" style="padding-left:50px;"><i class="fa fa-linkedin" aria-hidden="true"></i> </a> &nbsp; &nbsp; <a ng-href="http://www.integrhythm.com/contact-us"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </td>
+        </tr>
+      </table>
+  </div>]]></template>
+    </sp_header_footer>
+</record_update>

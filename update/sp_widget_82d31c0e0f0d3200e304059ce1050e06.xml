@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>@import url('https://fonts.googleapis.com/css?family=Inconsolata|Shadows+Into+Light');
+
+.header1{
+  padding-top:15px;
+  text-align:center;
+  font-family: 'Shadows Into Light', cursive;
+  font-size:35px;
+}
+
+.header2{
+  text-align:center;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
+  font-size:45px;
+}
+.icons{
+  text-align:center;
+  color: #999999;
+  padding-top:20px;
+  padding-bottom:30px;
+}
+.jobNumber{
+  padding-top:5px;
+  text-align:center;
+  color: #000000;
+}
+.jobType{
+  text-align:center;
+  font-weight:bold;
+  color: #000000;
+  font-size:15px;
+}
+td { 
+    padding: 60px;
+}
+
+.button {
+    //background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0 0;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  	
+}
+
+.button3 {
+    background-color: white; 
+    color: #f44336; 
+    border: 2px solid #f44336;
+}
+
+.button3:hover {
+    background-color: #f44336;
+    color: white;
+}
+.buttonText {
+  font-weight:bold;
+}
+.uploadLink{
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.bodyCenter{
+  padding-left:50px;
+}
+.fa{
+  color:grey;
+}
+.fa:hover{
+  color:#5D5D5D;
+}
+.super{
+  background-color:grey;
+  color:white;
+}
+.super:hover{
+  background-color:#5D5D5D;
+  color:white;
+}
+.sub{
+  color:grey;
+}
+.sub:hover{
+  color:#5D5D5D;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>ats-summary-home</id>
+        <internal>false</internal>
+        <link/>
+        <name>ATS Summary Home</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+	
+	data.categories = [];
+         
+            var count = new GlideAggregate('x_figin_ats_job');
+            count.addQuery('state', 9);
+            count.addAggregate('COUNT', 'job_category');
+            count.query();
+            while (count.next()) {
+                        var category = count.job_category.getDisplayValue();
+                        var categoryCount = count.getAggregate('COUNT', 'job_category') * 1.0;
+                        data.categories.push({"category": category, "value": categoryCount});
+            }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-21 05:45:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>82d31c0e0f0d3200e304059ce1050e06</sys_id>
+        <sys_mod_count>54</sys_mod_count>
+        <sys_name>ATS Summary Home</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_widget_82d31c0e0f0d3200e304059ce1050e06</sys_update_name>
+        <sys_updated_by>arunim</sys_updated_by>
+        <sys_updated_on>2017-02-22 10:17:34</sys_updated_on>
+        <template><![CDATA[<div class="bodyCenter">
+
+  <div class="header1">
+    What's out there for me?<br>
+  </div>
+  <br>
+  <div class="header2">
+    SOMETHING FOR EVERYONE<br>
+   
+  </div>
+  
+  <div class="row icons">
+  
+    <div class="col-md-3" ><a ng-href="?id=ats&job_category={{::category.category}}">
+ <div class="int-category" ng-repeat="category in c.data.categories" ng-if="category.category=='Administrative'">
+ <i class="fa fa-usd fa-5x" aria-hidden="true" ></i><br><br>
+  <span class="sub"> {{::category.category}}  </span><br>
+       
+        <span ng-if="category.value > 0" class="super label label-as-badge label-primary">{{::category.value}} Jobs Available</span>
+      <br><br>
+      </div></a>
+        </div>
+    
+        <div class="col-md-3" >
+         <a ng-href="?id=ats&job_category={{::category.category}}">
+          <div class="int-category" ng-repeat="category in c.data.categories" ng-if="category.category=='Exempt'">
+<i class="fa fa-users fa-5x" aria-hidden="true"></i><br><br>
+  <span class="sub"> {{::category.category}} </span><br>
+       
+        <span  ng-if="category.value > 0" class="super label label-as-badge label-primary ">{{::category.value}} Jobs Available</span>
+      <br><br>
+          </div>
+	       	</a>
+        </div>
+    
+        <div class="col-md-3">
+          <a ng-href="?id=ats&job_category={{::category.category}}">
+           <div class="int-category" ng-repeat="category in c.data.categories" ng-if="category.category=='Faculty'">
+<i class="fa fa-briefcase fa-5x" aria-hidden="true"></i><br><br>
+  <span class="sub"> {{::category.category}}</span><br>
+       
+        <span ng-if="category.value > 0" class="super label label-as-badge label-primary">{{::category.value}} Jobs Available</span>
+      <br><br>
+          </div>
+          </a>
+          	
+        </div>
+     
+        <div class="col-md-3">
+          <a ng-href="?id=ats&job_category={{::category.category}}">
+           <div class="int-category" ng-repeat="category in c.data.categories" ng-if="category.category=='Non-Exempt'">
+<i class="fa fa-adjust fa-5x" aria-hidden="true"></i><br><br>
+  <span class="sub"> {{::category.category}}</span><br>
+       
+        <span ng-if="category.value > 0" class="super label label-as-badge label-primary">{{::category.value}} Jobs Available</span>
+      <br><br>
+          </div>
+          </a>
+          
+        </div>
+     
+     
+    </div>
+  
+  <center>
+    <a ng-href="?id=ats">
+  <div class="button button3" >
+    <span class = "buttonText">ALL JOBS</span>
+  </div>
+      </a>
+    <br>
+    <div class="uploadLink">
+      Didn't see it? <a ng-href="?id=upload_resume">Upload your Resume</a> and We'll work our magic.
+    </div>
+    </center>
+  <br>
+  <br>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

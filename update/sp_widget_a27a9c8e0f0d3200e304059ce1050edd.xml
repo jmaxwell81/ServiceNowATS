@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.outer {
+    display: table;
+    position: relative;
+    height: 250px;
+    width: 100%;
+    //background-image : url("blue-mountains.jpg");
+    color: white;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100%;
+    text-align: center;
+}
+
+.int-italic {
+  font-style: italic;
+}
+.int-bold {
+  	padding-top:200px;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 45px;
+  text-shadow: 0 0 3px #FFFFFF;
+}
+.int-caption-text {
+ font-size: 22px;
+  text-shadow: 0 0 3px #FFFFFF;
+}
+.button3 {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid white;
+    width: 150px;
+    padding: 15px 0;
+    margin: auto;
+    text-align: center;
+}
+
+.button3:hover {
+    background-color: white;
+    color: #000000;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>ats-applicant-home-banner</id>
+        <internal>false</internal>
+        <link/>
+        <name>ATS Applicant Home Banner</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-21 06:10:08</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a27a9c8e0f0d3200e304059ce1050edd</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>ATS Applicant Home Banner</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_widget_a27a9c8e0f0d3200e304059ce1050edd</sys_update_name>
+        <sys_updated_by>arunim</sys_updated_by>
+        <sys_updated_on>2017-02-23 11:58:12</sys_updated_on>
+        <template><![CDATA[<div class="outer">
+  <div class="middle">
+    <div class="inner">
+
+      <br><br>
+      <br><br>
+      <span class="int-bold">LOOKING FOR A JOB?</span> <br> <br>
+      <span class="int-caption-text">From resume building to interview etiquette, we set up for success.</span> <br><br>
+      <br><br>
+      <span>
+        <a ng-href="?id=upload_resume" >
+        <div class="button3">
+          UPLOAD RESUME
+        </div>
+          </a>
+      </span>
+      <br><br><br>
+    </div>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

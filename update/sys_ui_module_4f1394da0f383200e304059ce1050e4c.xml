@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="ATS">44adc0120f383200e304059ce1050e32</application>
+        <filter/>
+        <name>Job Types</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_figin_ats_job_type_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-09 13:59:36</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4f1394da0f383200e304059ce1050e4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job Types</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sys_ui_module_4f1394da0f383200e304059ce1050e4c</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-09 13:59:36</sys_updated_on>
+        <table>x_figin_ats_job_type</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Feedback" max_length="40" name="x_figin_ats_feedback" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Applicant" max_length="32" name="applicant" reference="x_figin_ats_applicant" type="reference"/>
+        <element label="Date of Interview" max_length="40" name="date_of_interview" type="glide_date_time"/>
+        <element label="Feedback" mandatory="true" max_length="1000" name="feedback" type="string"/>
+        <element choice="1" label="Hiring Opinion" mandatory="true" max_length="40" name="hiring_openion" type="choice">
+            <choice>
+                <element label="Other" sequence="6" value="4"/>
+                <element label="Reject" sequence="10" value="3"/>
+                <element label="Hire" sequence="20" value="1"/>
+                <element label="Definite Hire" sequence="30" value="2"/>
+            </choice>
+        </element>
+        <element label="Interviewer" max_length="32" name="interviewer" reference="sys_user" type="reference"/>
+        <element label="Job" max_length="32" name="job" reference="x_figin_ats_job" type="reference"/>
+        <index name="index">
+            <element name="interviewer"/>
+        </index>
+        <index name="index2">
+            <element name="job"/>
+        </index>
+        <index name="index3">
+            <element name="applicant"/>
+        </index>
+    </element>
+</database>

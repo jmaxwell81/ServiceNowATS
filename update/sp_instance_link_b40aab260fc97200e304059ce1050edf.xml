@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <glyph>bars</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>0</order>
+        <sc_cat_item display_value="Data collection jobs">88dfed20d733110048e04ebfae610368</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">aea263220fc97200e304059ce1050e9f</sp_column>
+        <sp_page display_value="ats">fd2eec6b0f70b200e304059ce1050e13</sp_page>
+        <sp_widget display_value="icon link2">6849a3260fc97200e304059ce1050e04</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>arunim</sys_created_by>
+        <sys_created_on>2017-02-23 10:32:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b40aab260fc97200e304059ce1050edf</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Jobs List</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_instance_link_b40aab260fc97200e304059ce1050edf</sys_update_name>
+        <sys_updated_by>srinidhi</sys_updated_by>
+        <sys_updated_on>2017-03-02 09:54:02</sys_updated_on>
+        <title>Jobs List</title>
+        <type>sc_cat_item</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Color Box",
+		"displayValue": "Color Box"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+</record_update>

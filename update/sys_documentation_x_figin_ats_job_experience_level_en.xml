@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="experience_level" label="Experience Level" language="en" table="x_figin_ats_job">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>experience_level</element>
+            <help/>
+            <hint/>
+            <label>Experience Level</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <plural>Experience Levels</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 17:15:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>766982a20ffc3200e304059ce1050e8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Experience Level</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_documentation_x_figin_ats_job_experience_level_en</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 17:15:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

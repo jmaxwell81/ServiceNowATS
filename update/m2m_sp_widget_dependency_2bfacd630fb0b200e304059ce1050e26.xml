@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="INSERT_OR_UPDATE">
+        <sp_dependency display_value="Google reCAPTCHA">91fa09a30fb0b200e304059ce1050e65</sp_dependency>
+        <sp_widget display_value="Upload Resume Widget">8b36782f0f70b200e304059ce1050e0c</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 15:16:11</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>2bfacd630fb0b200e304059ce1050e26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google reCAPTCHA.Upload Resume Widget</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_2bfacd630fb0b200e304059ce1050e26</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-13 15:16:11</sys_updated_on>
+    </m2m_sp_widget_dependency>
+</record_update>

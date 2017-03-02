@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>active</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-14 07:14:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b456a0730fb4b200e304059ce1050ee0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>active</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b456a0730fb4b200e304059ce1050ee0</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-14 07:25:31</sys_updated_on>
+        <table>x_figin_ats_feedback</table>
+        <ui_policy display_value="(ATS) Make Fields Readonly - OnLoad">faf5ac330fb4b200e304059ce1050ec0</ui_policy>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

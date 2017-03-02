@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_impex_map">
+    <sys_impex_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <agent/>
+        <apply_defaults>true</apply_defaults>
+        <coalesce/>
+        <condition_script/>
+        <data_option>insert_update</data_option>
+        <data_source/>
+        <description>Calendar Map of Applicant</description>
+        <external_names/>
+        <name>icalendar.x_figin_ats_applicant</name>
+        <order/>
+        <parent/>
+        <script/>
+        <sys_class_name>sys_impex_map</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-11 03:42:33</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>d1c89cf20f707200e304059ce1050e6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>icalendar.x_figin_ats_applicant</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sys_impex_map_d1c89cf20f707200e304059ce1050e6c</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-11 03:42:33</sys_updated_on>
+        <table>x_figin_ats_applicant</table>
+        <type>icalendar</type>
+    </sys_impex_map>
+</record_update>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Personal Information" section_id="bca85aa60ffc3200e304059ce1050e10" sys_domain="global" table="x_figin_ats_applicant" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>0</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>182a5ee60ffc3200e304059ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip_postal_code</element>
+            <position>1</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>982a5ee60ffc3200e304059ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address</element>
+            <position>2</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>1c2a5ee60ffc3200e304059ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>9c2a5ee60ffc3200e304059ce1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>linkedin_profile_url</element>
+            <position>4</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>102a5ee60ffc3200e304059ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>highest_qualification</element>
+            <position>5</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>902a5ee60ffc3200e304059ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>experience</element>
+            <position>6</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>142a5ee60ffc3200e304059ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>942a5ee60ffc3200e304059ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cover_letter</element>
+            <position>8</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>182a5ee60ffc3200e304059ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>resume</element>
+            <position>9</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:28:00</sys_created_on>
+            <sys_id>982a5ee60ffc3200e304059ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_figin_ats_applicant" sys_domain="global" view="Default view">bca85aa60ffc3200e304059ce1050e10</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:28:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Personal Information</caption>
+            <header>false</header>
+            <name>x_figin_ats_applicant</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:21:29</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bca85aa60ffc3200e304059ce1050e10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Personal Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_ui_section_bca85aa60ffc3200e304059ce1050e10</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:21:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

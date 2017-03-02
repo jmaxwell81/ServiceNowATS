@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables>$sp-logo-margin-x: 		15px !default;&#13;
+$sp-tagline-color:		$text-color !default;&#13;
+$navbar-inverse-bg: 	#3a3f51 !default;&#13;
+$navbar-inverse-link-color: #bdc0c4 !default;&#13;
+$navbar-inverse-link-hover-color: #ffffff !default;&#13;
+$body-bg: 				#f0f3f4 !default;&#13;
+$dropdown-link-disabled-color: #ccc;&#13;
+</css_variables>
+        <footer display_value="ATS Footer Static">bbccfd4c0f4db200e304059ce1050ec4</footer>
+        <footer_fixed>true</footer_fixed>
+        <header display_value="Stock Header Applicant New">1fc830af0f70b200e304059ce1050ea6</header>
+        <name>Applicant Theme</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 13:56:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9288fc6f0f70b200e304059ce1050e0e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Applicant Theme</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_theme_9288fc6f0f70b200e304059ce1050e0e</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-15 08:11:45</sys_updated_on>
+    </sp_theme>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.applicant-footer{
+  background-color: #405060; 
+  color: #bdc0c4; 
+  padding: 5px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>applicant_footer_widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>Applicant Footer Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 13:49:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>b137382f0f70b200e304059ce1050e18</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Applicant Footer Widget</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_widget_b137382f0f70b200e304059ce1050e18</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-13 13:50:17</sys_updated_on>
+        <template><![CDATA[<div class='applicant-footer'>
+  
+
+ <table >
+
+  <tr><th >About Us</th>  
+    <th > </th>
+<th >For Candidates </th>
+    <th >Other </th>
+    </tr>
+    <tr>
+  <td width="60%" align="justify">
+Integrhythm, the fastest growing Technology Services company in Minnesota, is a specialized consulting firm focused on integrating business processes with IT to create an operational rhythm for the enterprise. We connect the business with IT to deliver value across the organization through expanded productivity, capacity, and quality of service. From program advisory and tool selection to ServiceNow® implementations, we partner with clients to hit and exceed strategic objectives.
+ </td>
+      <td width="5%" align="justify"></td>
+  
+    <td width="15%"align="justify">
+    <ul type="disc">
+  <li><a href="http://www.integrhythm.com/careers">Browse Jobs</a></li>
+      <li><a href="http://www.integrhythm.com/careers">Browse Categories</a></li>
+  <li><a href="/recruitment_sp?id=apply_job&sys_id=942f7bb2db20f2406951d8c75e9619c4">Submit Resume</a></li>
+      <li><a href="/recruitment_sp?id=signup">Signup</a></li>
+      <li><a href="http://www.integrhythm.com/careers">Create Job Alerts</a></li>
+</ul>
+    </td>
+    <td width="15%" align="justify">
+    <ul type="disc">
+      <li><a href="http://www.integrhythm.com/careers">Job Page</a></li>
+  <li><a href="http://www.integrhythm.com/team">Our Team</a></li>
+      <li><a href="http://www.integrhythm.com/careers">Quick Career Tips</a></li>
+      <li><a href="http://www.integrhythm.com/contact-us">Contact</a></li>
+</ul>
+    
+    </td>
+    </tr>
+  </table>
+
+  </div>]]></template>
+    </sp_widget>
+</record_update>

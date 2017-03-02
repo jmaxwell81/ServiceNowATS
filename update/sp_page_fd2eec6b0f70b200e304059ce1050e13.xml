@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <css>.padding-top{
+ padding-top:0px;
+}
+</css>
+        <id>ats</id>
+        <internal>false</internal>
+        <public>true</public>
+        <roles/>
+        <short_description>ATS Jobs Page</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 13:10:32</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>fd2eec6b0f70b200e304059ce1050e13</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ats</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_page_fd2eec6b0f70b200e304059ce1050e13</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-21 07:19:57</sys_updated_on>
+        <title>ATS Jobs Page</title>
+    </sp_page>
+</record_update>

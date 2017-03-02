@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true" audit="true" extends="task" label="Job" max_length="40" name="x_figin_ats_job" sizeclass="88" type="collection">
+        <element label="Additional Approver" max_length="32" name="additional_approver" reference="sys_user" reference_qual="roles=x_figin_ats.job_requestor^EQ" reference_qual_condition="roles=x_figin_ats.job_requestor^EQ" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Expected Publish Date" max_length="40" name="expected_publish_date" type="glide_date"/>
+        <element choice="1" choice_field="experience" choice_table="x_figin_ats_applicant" label="Experience Level" max_length="40" name="experience_level" type="choice">
+            <choice/>
+        </element>
+        <element label="Expiry Date" max_length="40" name="expiry_date" type="glide_date_time"/>
+        <element label="Manager" max_length="32" name="hr_manager" reference="sys_user" reference_qual="roles=x_figin_ats.job_requestor^EQ" reference_qual_condition="roles=x_figin_ats.job_requestor^EQ" type="reference"/>
+        <element label="Job Category" max_length="32" name="job_category" reference="x_figin_ats_job_category" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Job Description" mandatory="true" max_length="8000" name="job_description" type="string"/>
+        <element label="Job Type" max_length="32" name="job_type" reference="x_figin_ats_job_type" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Position" mandatory="true" max_length="100" name="position" type="string"/>
+        <element choice="1" label="Referral Source" max_length="40" name="referral_source" type="choice">
+            <choice/>
+        </element>
+        <element label="Referral Source Comment" max_length="100" name="referral_source_comment" type="string"/>
+        <element label="Remote Work/Telecommuting" max_length="40" name="remote_work_telecommuting" type="boolean"/>
+        <element label="Skills Required" mandatory="true" max_length="1000" name="skills_required" type="string"/>
+        <element choice="1" label="Travel Percentage" max_length="40" name="travel_percentage" type="choice">
+            <choice>
+                <element label="0%" sequence="10" value="0"/>
+                <element label="20%" sequence="20" value="1"/>
+                <element label="40%" sequence="30" value="3"/>
+                <element label="60%" sequence="40" value="4"/>
+                <element label="80%" sequence="50" value="5"/>
+                <element label="100%" sequence="60" value="6"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="experience" table="x_figin_ats_applicant" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1-3 Years</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>0</sequence>
+            <sys_created_by>bhuvana</sys_created_by>
+            <sys_created_on>2017-02-14 12:59:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5345fd770f38b200e304059ce1050ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhuvana</sys_updated_by>
+            <sys_updated_on>2017-02-14 12:59:29</sys_updated_on>
+            <value>1-3 Years</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4-7 Years</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>0</sequence>
+            <sys_created_by>bhuvana</sys_created_by>
+            <sys_created_on>2017-02-14 12:59:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f45fd770f38b200e304059ce1050eea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhuvana</sys_updated_by>
+            <sys_updated_on>2017-02-14 12:59:30</sys_updated_on>
+            <value>4-7 Years</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8-10 Years</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>0</sequence>
+            <sys_created_by>bhuvana</sys_created_by>
+            <sys_created_on>2017-02-14 12:59:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d345fd770f38b200e304059ce1050eed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhuvana</sys_updated_by>
+            <sys_updated_on>2017-02-14 12:59:30</sys_updated_on>
+            <value>8-10 Years</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fresher</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>10</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:09:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>686254a30ffc7200e304059ce1050ee0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:09:03</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - 3 Years</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>20</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:09:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c57254a30ffc7200e304059ce1050ee2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:09:47</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - 7 Years</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>30</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:10:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d79290a30ffc7200e304059ce1050e7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:10:27</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>8 - 10 Years</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>40</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:10:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2cc250e30ffc7200e304059ce1050eda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:10:45</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>experience</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>11+ Years</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>50</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:11:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4dd210e30ffc7200e304059ce1050ea4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:11:19</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>experience</element>
+            <name>x_figin_ats_applicant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:09:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7b62d0a30ffc7200e304059ce1050ef0</sys_id>
+            <sys_mod_count>16</sys_mod_count>
+            <sys_name>experience</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_choice_x_figin_ats_applicant_experience</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-28 03:47:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

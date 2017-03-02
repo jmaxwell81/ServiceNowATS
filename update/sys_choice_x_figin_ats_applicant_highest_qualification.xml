@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="highest_qualification" table="x_figin_ats_applicant" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>highest_qualification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mater's Degree</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>0</sequence>
+            <sys_created_by>bhuvana</sys_created_by>
+            <sys_created_on>2017-02-14 12:59:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d345fd770f38b200e304059ce1050eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bhuvana</sys_updated_by>
+            <sys_updated_on>2017-02-14 12:59:30</sys_updated_on>
+            <value>Mater's Degree</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>highest_qualification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High School Diploma</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>10</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:02:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3c09ca30ffc7200e304059ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:02:40</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>highest_qualification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Undergraduate or Associate Degree</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>20</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:03:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7f09ca30ffc7200e304059ce1050e9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:03:31</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>highest_qualification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bachelor's Degree</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>30</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:03:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f219c630ffc7200e304059ce1050ea6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:03:58</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>highest_qualification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Master's Degree</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>40</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9419ca30ffc7200e304059ce1050ec2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:04:16</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>highest_qualification</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ph.D or Advanced Professional Degree</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>60</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:04:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9f51d8a30ffc7200e304059ce1050e8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:04:53</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>highest_qualification</element>
+            <name>x_figin_ats_applicant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:02:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>56f0d8a30ffc7200e304059ce1050e89</sys_id>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_name>highest_qualification</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_choice_x_figin_ats_applicant_highest_qualification</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-28 03:47:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="730e441a0f383200e304059ce1050eac" sys_domain="global" table="x_figin_ats_job" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>fdf698270ffc7200e304059ce1050e60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">de62a0120f783200e304059ce1050e0e</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>71f698270ffc7200e304059ce1050e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>position</element>
+            <position>2</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>f1f698270ffc7200e304059ce1050e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>75f698270ffc7200e304059ce1050e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>f5f698270ffc7200e304059ce1050e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_type</element>
+            <position>5</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>79f698270ffc7200e304059ce1050e61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_category</element>
+            <position>6</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>f1f6d8270ffc7200e304059ce1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>7</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>75f6d8270ffc7200e304059ce1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>8</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>f5f6d8270ffc7200e304059ce1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>experience_level</element>
+            <position>9</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:51</sys_created_on>
+            <sys_id>79f6d8270ffc7200e304059ce1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_percentage</element>
+            <position>10</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>f9f6d8270ffc7200e304059ce1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expected_publish_date</element>
+            <position>11</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>7df6d8270ffc7200e304059ce1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expiry_date</element>
+            <position>12</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>fdf6d8270ffc7200e304059ce1050e8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>remote_work_telecommuting</element>
+            <position>13</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>71f6d8270ffc7200e304059ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>f1f6d8270ffc7200e304059ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>15</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>75f6d8270ffc7200e304059ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>16</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>f5f6d8270ffc7200e304059ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>17</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>79f6d8270ffc7200e304059ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hr_manager</element>
+            <position>18</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>f9f6d8270ffc7200e304059ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_approver</element>
+            <position>19</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>7df6d8270ffc7200e304059ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:28:52</sys_created_on>
+            <sys_id>fdf6d8270ffc7200e304059ce1050e8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:28:52</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_figin_ats_job</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 13:37:32</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>730e441a0f383200e304059ce1050eac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_figin_ats_job</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_ui_section_730e441a0f383200e304059ce1050eac</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-09 13:37:32</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

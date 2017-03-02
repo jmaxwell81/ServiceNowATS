@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.applicant-footer{&#13;
+  background-color: #405060; &#13;
+  color: #bdc0c4; &#13;
+  //padding: 5px;&#13;
+}&#13;
+&#13;
+a {&#13;
+    color: #B2B5BB;&#13;
+}&#13;
+&#13;
+.button {&#13;
+  display: inline-block;&#13;
+  border-radius: 4px;&#13;
+  background-color: #418BCA;&#13;
+  border: none;&#13;
+  color: #FFFFFF;&#13;
+  text-align: center;&#13;
+  font-size: 15px;&#13;
+  padding: 8px;&#13;
+  width: 120px;&#13;
+  transition: all 2s;&#13;
+  cursor: pointer;&#13;
+  margin: 0px;&#13;
+}&#13;
+&#13;
+.button span {&#13;
+  cursor: pointer;&#13;
+  display: inline-block;&#13;
+  position: relative;&#13;
+  transition: 0.5s;&#13;
+}&#13;
+&#13;
+.button span:after {&#13;
+  content: '\00bb';&#13;
+  position: absolute;&#13;
+  opacity: 0;&#13;
+  top: 0;&#13;
+  right: -20px;&#13;
+  transition: 0.5s;&#13;
+}&#13;
+&#13;
+.button:hover span {&#13;
+  padding-right: 25px;&#13;
+}&#13;
+&#13;
+.button:hover span:after {&#13;
+  opacity: 1;&#13;
+  right: 0;&#13;
+}&#13;
+a:hover {&#13;
+    color: #418BCA;&#13;
+}&#13;
+&#13;
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>applicant_footer</id>
+        <internal>false</internal>
+        <link/>
+        <name>Applicant - About US Footer</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 14:29:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a119fc6f0f70b200e304059ce1050e11</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Applicant - About US Footer</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_header_footer_a119fc6f0f70b200e304059ce1050e11</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-15 08:08:07</sys_updated_on>
+        <template><![CDATA[<div class='applicant-footer'>
+  
+
+ <table style="color: #B2B5BB;">
+
+  <tr><th style=" padding-left:30px; padding-top:10px; font-size:18px;">About Us</th>  
+    <th> </th>
+	<th style="padding-left:25px; padding-top:10px; font-size:18px;">For Candidates </th>
+    <th style="padding-left:25px; padding-top:10px; font-size:18px;">Other </th>
+    </tr>
+    <tr>
+  <td width="60%" align="justify" style="color: #B2B5BB; font-size:14px; padding-left:30px; ">
+CoFigure, the fastest growing Technology Services company in Minnesota, is a specialized consulting firm focused on integrating business processes with IT to create an operational rhythm for the enterprise. We connect the business with IT to deliver value across the organization through expanded productivity, capacity, and quality of service. From program advisory and tool selection to ServiceNow® implementations, we partner with clients to hit and exceed strategic objectives.
+ </td>
+      <td width="5%" align="justify"></td>
+  
+    <td width="15%"align="justify">
+    <ul type="disc" style="color: white; font-size:14px; padding-top:25px;">
+  <li><a href="http://www.integrhythm.com/careers" target="_blank">Browse Jobs</a></li>
+      <li><a href="http://www.integrhythm.com/careers" target="_blank">Browse Categories</a></li>
+  <li><a href="/ats?id=upload_resume">Submit Resume</a></li>
+      <li><a href="/ats?id=applicant_registration">Registration</a></li>
+      <li><a href="http://www.integrhythm.com/careers" target="_blank">Create Job Alerts</a></li>
+</ul>
+     </td>
+    <td width="15%" align="justify">
+    <ul type="disc" style="color: white; font-size:14px; padding-top:10px;" >
+      <li><a href="http://www.integrhythm.com/careers" target="_blank">Job Page</a></li>
+  <li><a href="http://www.integrhythm.com/team" target="_blank">Our Team</a></li>
+      <li><a href="http://www.integrhythm.com/careers" target="_blank">Quick Career Tips</a></li>
+      <li><a href="http://www.integrhythm.com/contact-us" target="_blank">Contact</a></li>
+</ul>
+    
+    </td>
+    </tr>
+   <tr>
+     <td style=" padding-left:30px; padding-top:10px; padding-bottom:20px;">
+       <a ng-href="http://www.integrhythm.com/about" target="_blank"><button class="button" style="vertical-align:middle"><span>Read More </span></button>
+       </a>
+     </td>
+  </table>
+</div>]]></template>
+    </sp_header_footer>
+</record_update>

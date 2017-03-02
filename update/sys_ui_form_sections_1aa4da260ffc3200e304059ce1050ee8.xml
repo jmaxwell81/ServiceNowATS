@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="1aa4da260ffc3200e304059ce1050ee8" sys_domain="global" table="x_figin_ats_job" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:04:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ea4da260ffc3200e304059ce1050ee8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_figin_ats_job" name="x_figin_ats_job" sys_domain="global" view="Default view">1aa4da260ffc3200e304059ce1050ee8</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job" sys_domain="global" view="Default view">730e441a0f383200e304059ce1050eac</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:04:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:04:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26a4da260ffc3200e304059ce1050ee9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_figin_ats_job" name="x_figin_ats_job" sys_domain="global" view="Default view">1aa4da260ffc3200e304059ce1050ee8</sys_ui_form>
+            <sys_ui_section caption="Requisition Details" display_value="Requisition Details" name="x_figin_ats_job" sys_domain="global" view="Default view">dea4da260ffc3200e304059ce1050ee8</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:04:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:06:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2935d6660ffc3200e304059ce1050e71</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_figin_ats_job" name="x_figin_ats_job" sys_domain="global" view="Default view">1aa4da260ffc3200e304059ce1050ee8</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_figin_ats_job" sys_domain="global" view="Default view">e135d6660ffc3200e304059ce1050e71</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 18:06:31</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_figin_ats_job</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 18:04:07</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1aa4da260ffc3200e304059ce1050ee8</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_name>x_figin_ats_job</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1aa4da260ffc3200e304059ce1050ee8</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-28 03:47:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

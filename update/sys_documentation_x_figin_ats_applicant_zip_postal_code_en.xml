@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="zip_postal_code" label="Zip/Postal Code" language="en" table="x_figin_ats_applicant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>zip_postal_code</element>
+            <help/>
+            <hint/>
+            <label>Zip/Postal Code</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <plural>Zip/Postal Codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 17:27:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>835c06e20ffc3200e304059ce1050ebd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Zip/Postal Code</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_documentation_x_figin_ats_applicant_zip_postal_code_en</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 17:27:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

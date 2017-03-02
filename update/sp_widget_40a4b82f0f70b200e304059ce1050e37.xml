@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.heading{&#13;
+  width:100%; &#13;
+  background-color:#418BCA; &#13;
+  color:white;&#13;
+  padding-bottom:30px;&#13;
+}&#13;
+&#13;
+.title{&#13;
+  color:#418BCA;&#13;
+  font-size: 18px;&#13;
+}&#13;
+.headerTitle{&#13;
+ 	padding-top:30px;&#13;
+  padding-left:120px;&#13;
+}&#13;
+.details{&#13;
+  padding-left:120px;&#13;
+  padding-top:30px;&#13;
+}&#13;
+.description{&#13;
+  padding-left:120px;&#13;
+  padding-top:20px;&#13;
+}&#13;
+&#13;
+.button {&#13;
+  display: inline-block;&#13;
+  border-radius: 4px;&#13;
+  background-color: #418BCA;&#13;
+  border: none;&#13;
+  color: #FFFFFF;&#13;
+  text-align: center;&#13;
+  font-size: 13px;&#13;
+  padding: 10px;&#13;
+  width: 80px;&#13;
+  transition: all 0.5s;&#13;
+  cursor: pointer;&#13;
+  margin: 5px;&#13;
+}&#13;
+&#13;
+.button span {&#13;
+  cursor: pointer;&#13;
+  display: inline-block;&#13;
+  position: relative;&#13;
+  transition: 0.5s;&#13;
+}&#13;
+&#13;
+.button span:after {&#13;
+  content: '\00bb';&#13;
+  position: absolute;&#13;
+  opacity: 0;&#13;
+  top: 0;&#13;
+  right: -20px;&#13;
+  transition: 0.5s;&#13;
+}&#13;
+&#13;
+.button:hover span {&#13;
+  padding-right: 25px;&#13;
+}&#13;
+&#13;
+.button:hover span:after {&#13;
+  opacity: 1;&#13;
+  right: 0;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>job-detail-widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>Job Detail Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	data.jobId=$sp.getParameter('jobId');
+
+
+	var gr=new GlideRecord('x_figin_ats_job');	
+	gr.addQuery('sys_id', data.jobId);
+	gr.query()	
+	if(gr.next())
+		{
+			data.jobDetails=[];
+			
+			var job={};
+			job.title=gr.getDisplayValue('position');
+			job.category=gr.getDisplayValue('job_category');
+			job.skills=gr.getDisplayValue('skills_required');
+			job.description=gr.getDisplayValue('job_description');
+			job.location=gr.getDisplayValue('location');
+			job.posted=gr.getDisplayValue('sys_updated_on');
+			job.jobid=gr.getDisplayValue('sys_id');
+			data.jobDetails.push(job);
+		}		
+	
+})();
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 13:38:26</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>40a4b82f0f70b200e304059ce1050e37</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Job Detail Widget</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_widget_40a4b82f0f70b200e304059ce1050e37</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-14 18:24:22</sys_updated_on>
+        <template><![CDATA[<div>
+
+  <div ng-repeat="job in data.jobDetails">
+    <div class="heading">
+    <h1 class="headerTitle">
+      {{job.title}}
+    </h1>
+    <span class="details">
+      Posted on: {{job.posted}} <span style="padding-left:100px;">Location: {{job.location}}</span><br>
+      </span></div>
+    <div class="description">
+    <span class="title">Job Description</span><br/>
+    {{job.description}}<p></p>
+    <font class="title">Skill Required</font><br/>
+      {{job.skills}}</div>
+    <p></p>
+    <p></p>
+    <div style="padding-left:115px;padding-bottom:25px;">
+  <a ng-href="/ats?id=upload_resume&jobid={{job.jobid}}"> 
+      <button class="button"><span>Apply </span> </button></a>
+    
+  </div>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

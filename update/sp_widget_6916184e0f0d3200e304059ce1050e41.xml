@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function() {
+  /* widget controller */
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.tiletd{&#13;
+  width: 50%;&#13;
+}&#13;
+.tile1{&#13;
+  &#13;
+  height: 100%;&#13;
+  width: 100%;&#13;
+  background-color: #418BCA;&#13;
+}&#13;
+&#13;
+.tile2{&#13;
+  &#13;
+  height: 100%;&#13;
+  width: 100%;&#13;
+  background-color: #333333;&#13;
+  padding-left: 10px;&#13;
+}&#13;
+.tile3{&#13;
+  &#13;
+  height: 100%;&#13;
+  width: 100%;&#13;
+  background-color: #FFC8BB;&#13;
+  colspan:2;&#13;
+}&#13;
+&#13;
+.Tilebody{&#13;
+ padding-top:10px;&#13;
+  padding-left: 15px;&#13;
+  padding-bottom:15px;&#13;
+}&#13;
+&#13;
+.Tileheader{&#13;
+  padding-left:15px;&#13;
+  color:white;&#13;
+  &#13;
+}&#13;
+&#13;
+.TileDesc{&#13;
+  padding-left:15px;&#13;
+  padding-top:15px;&#13;
+  width=80%;&#13;
+  color:white;&#13;
+}&#13;
+&#13;
+.createlink{&#13;
+  padding-left:15px;&#13;
+  padding-top:15px;&#13;
+  color:white;&#13;
+  font-weight:bold;&#13;
+}&#13;
+/* unvisited link */&#13;
+a:link {&#13;
+    color: white;&#13;
+}&#13;
+&#13;
+/* visited link */&#13;
+a:visited {&#13;
+    color: red;&#13;
+}&#13;
+&#13;
+/* mouse over link */&#13;
+a:hover {&#13;
+    color: maroon;&#13;
+}&#13;
+&#13;
+/* selected link */&#13;
+a:active {&#13;
+    color: blue;&#13;
+}&#13;
+td { &#13;
+    padding: 10px;&#13;
+}&#13;
+.date{&#13;
+  color:white;&#13;
+  padding-left:15px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>ats-applicant-profile</id>
+        <internal>false</internal>
+        <link/>
+        <name>ATS Applicant Profile</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-21 05:50:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>6916184e0f0d3200e304059ce1050e41</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>ATS Applicant Profile</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_widget_6916184e0f0d3200e304059ce1050e41</sys_update_name>
+        <sys_updated_by>arunim</sys_updated_by>
+        <sys_updated_on>2017-02-22 10:18:33</sys_updated_on>
+        <template><![CDATA[<div>
+  <div class="Tilebody">
+<div class="col-md-6 tiletd" style="padding:10px;">
+  	<div class="tile1">
+      <br>
+      <span class="Tileheader"><b>CANDIDATES </b></span>
+      
+      <div class= "TileDesc">
+        Candidates willing to apply for the jobs of their choice may create their 
+        profile on out portal and make use of our search algorithms to find the best
+        job suitable for them. Candidates with a profile have more exposure to the Employers too.
+        <br>
+        <br>
+        <br><br>
+        <br>
+        
+      </div>
+      
+      <div >
+         <a ng-href="?id=applicant_registration" class="createlink">CREATE YOUR PROFILE</a>
+      </div>
+      <br>
+    </div>
+    </div>
+    
+     <div class="col-md-6 tiletd" style="padding:10px;">
+  	<div class="tile2">
+      <br>
+      <span class="Tileheader">UPCOMING RECRUITMENT EVENTS </span>
+      <br>
+      
+      
+      <div class= "TileDesc" style="padding-bottom:160px;">
+        No events scheduled<br>
+        
+       
+      </div>
+     
+     
+    </div>
+  </div>
+    
+  	<div class="col-md-12" style="padding:10px;">
+      
+    	<div class = "tile3">
+        <br>
+    
+        <b style="color:black;padding-left:15px;">FROM THE BLOG </b>
+        <br>
+        <br>
+        <b style="color:black;padding-left:15px;">4 Question to ask during your next Interview.</b>
+       	<div style="padding-left:15px;color:black;padding-right:15px;">
+          <br>
+          It's important to remember that every interview is a two-way street.
+You should be assessing the employer just as much as they're assessing you because you both need to walk away convinced that the job would be a great fit.
+
+So when the tables are turned and the interviewer asks, "Do you have any questions for me?" take advantage of this opportunity. It's the best way to determine if you'd <br>be happy working for this employer, and whether your goals are aligned with theirs.
+          <br>
+          <br>
+        </div>
+        <div>
+          <center>
+          <a href="" style="color:black;padding-left:15px; font-weight:bold;">View More</a>
+          </center>
+          <br>
+        </div>
+      </div>
+    </div>  
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

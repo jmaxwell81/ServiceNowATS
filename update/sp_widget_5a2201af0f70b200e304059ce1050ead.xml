@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	c. createAccount=function(){
+		c.server.update().then(function (response){
+			c.data={};
+		})
+	}
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>applicant_registration_widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>Applicant Registration Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+ if(!input)
+	 return;
+	if(input.email){
+	var gr=new GlideRecord('x_figin_ats_applicant');
+	gr.initialize();
+	gr.name=input.firstname;
+	gr.email=input.email;
+	gr.phone=input.phone;
+		gr.password=input.password;
+		gr.re_enter_password=input.re_enter_password;
+	gr.insert();
+		
+		
+		//var gr=new GlideRecord('x_inte3_recruit_applicant');
+	var gr1=new GlideRecord('sys_user');
+		gr1.initialize();
+	gr1.name=input.firstname;
+	gr1.email=input.email;
+	gr1.phone=input.phone;
+		gr1.password=input.password;
+		//gr1.re_enter_password=input.re_enter_password;
+	gr1.insert();
+		
+ gs.addInfoMessage("Thanks for singing up. Have a great day")
+	}
+	else
+		gs.addErrorMessage("Please enter valid email id.");
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 14:37:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5a2201af0f70b200e304059ce1050ead</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Applicant Registration Widget</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_widget_5a2201af0f70b200e304059ce1050ead</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-13 14:38:09</sys_updated_on>
+        <template><![CDATA[<div>
+  <form name="signup">
+    
+  
+    <table width="100%">
+   <tr> <td>First name: </td><td><input class="form-control" ng-model="c.data.firstname"></td></tr>
+   <tr> <td>Last name: </td><td><input class="form-control" ng-model="c.data.lastname"></td></tr>
+   <tr> <td>Email: </td><td><input type="email" ng-model="email.text" ng-required="required" class="form-control" ng-model="c.data.email"></td></tr>
+   <div role="alert">
+      <span class="error" ng-show="myForm.input.$error.required">
+        Required!</span>
+      <span class="error" ng-show="myForm.input.$error.email">
+        Not valid email!</span>
+    </div>
+    <tr> <td>Phone: </td><td><input class="form-control" ng-model="c.data.phone"></td></tr>
+       <tr> <td>Password: </td><td><input class="form-control" type="password" ng-model="c.data.password"></td></tr>
+       <tr> <td>Re-type Password: </td><td><input class="form-control" type="password" ng-model="c.data.re_enter_password"></td></tr>
+  
+      <tr><td colspan="2" align="center"> <input class="btn btn-primary btn-block" ng-click="c.createAccount()" type="submit" value="Signup"></td></tr>
+    </table>
+  </form>
+</div>]]></template>
+    </sp_widget>
+</record_update>

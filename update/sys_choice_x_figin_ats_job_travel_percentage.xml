@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="travel_percentage" table="x_figin_ats_job" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>travel_percentage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>0%</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <sequence>10</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:13:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4663d8e30ffc7200e304059ce1050e5a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:13:36</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>travel_percentage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>20%</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <sequence>20</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:14:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b7398e30ffc7200e304059ce1050e41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:14:02</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>travel_percentage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>40%</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <sequence>30</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:14:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d93d8a30ffc7200e304059ce1050e93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:14:13</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>travel_percentage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>60%</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <sequence>40</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:14:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88a358e30ffc7200e304059ce1050e69</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:14:25</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>travel_percentage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>80%</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <sequence>50</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:14:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2a358e30ffc7200e304059ce1050e6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:14:37</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>travel_percentage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>100%</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <sequence>60</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:14:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1b3d8e30ffc7200e304059ce1050e5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-13 11:14:49</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>travel_percentage</element>
+            <name>x_figin_ats_job</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-13 11:13:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>567394a30ffc7200e304059ce1050e2a</sys_id>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_name>travel_percentage</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_choice_x_figin_ats_job_travel_percentage</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-28 03:47:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

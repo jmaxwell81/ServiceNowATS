@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="ATS">8cadc0120f383200e304059ce1050e30</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_figin_ats_applicant">state=8^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Offer Accepted</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_figin_ats_applicant</name>
+        <order>250</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_figin_ats_applicant_user,x_figin_ats.job_requestor</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-09 15:35:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>19f820d20f783200e304059ce1050e5c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Offer Released</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sys_app_module_19f820d20f783200e304059ce1050e5c</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-13 07:05:40</sys_updated_on>
+        <timeline_page/>
+        <title>Offer Released</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

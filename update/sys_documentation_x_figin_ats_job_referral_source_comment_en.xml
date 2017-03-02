@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="referral_source_comment" label="Referral Source Comment" language="en" table="x_figin_ats_job">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>referral_source_comment</element>
+            <help/>
+            <hint/>
+            <label>Referral Source Comment</label>
+            <language>en</language>
+            <name>x_figin_ats_job</name>
+            <plural>Referral Source Comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-10 17:06:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>18674a620ffc3200e304059ce1050e64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Referral Source Comment</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_documentation_x_figin_ats_job_referral_source_comment_en</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 17:06:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope) {
+  /* widget controller */
+  var c = this;
+	
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.int-jobs-heading {
+    position: relative;
+    font-size: 18px;
+    background-color: white;
+    color: #0093d0;
+    padding: 10px 15px;
+    font-weight: 600;
+    box-shadow: 0 1px 2px 0px rgba(128, 128, 128, .35);
+}
+.int-job-holder {
+   background-color: white;
+   border: 0; /* to cancel other borders */
+   border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+   padding: 10px 15px;
+}
+.int-job-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(226, 0, 0, 0.84);
+}
+.panel-body {
+ padding-top: 11px;
+}
+
+.int-link-button {
+ color: white;
+}
+.int-link-button:hover {
+ color: white;
+}
+.int-job-type {
+  margin-left: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.43);
+  color: rgba(0, 0, 0, 0.43);
+  font-size: 13px;
+  border-radius: 2px;
+  padding: 0 8px;
+}
+.int-job-location {
+  color: rgba(0, 0, 0, 0.43);
+}
+.int-details {
+ float: left;
+ width: 70%;
+}
+.int-actions {
+ float: right;
+ width: 30%;
+}
+.int-action-button {
+  border-radius: 1px;
+  width: 80%;
+ margin-bottom: 10px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>job_search_details_widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>Job Search Details Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+data.searchText=$sp.getParameter('search_text');
+
+var gr=new GlideRecord('x_figin_ats_job');	
+var jobCat=	gr.addQuery('job_category',"CONTAINS", data.searchText);
+	jobCat.addOrCondition('skills_required', "CONTAINS",data.searchText);
+	jobCat.addOrCondition('position', "CONTAINS",data.searchText);
+	jobCat.addOrCondition('location', "CONTAINS",data.searchText);
+	//gr.addQuery('job_category',"IT");
+	gr.addQuery('state', 9);
+	gr.query();
+	data.jobList=[];
+	while(gr.next())
+		{
+		
+			var jobs={};
+			jobs.title=gr.getDisplayValue('position');
+			jobs.category=gr.getDisplayValue('job_category');
+			jobs.skills=gr.getDisplayValue('skills_required');
+			jobs.description=gr.getDisplayValue('job_description');
+			jobs.location=gr.getDisplayValue('location');
+			jobs.posted=gr.getDisplayValue('sys_updated_on');
+			jobs.jobType=gr.getDisplayValue('job_type')
+			jobs.jobId=gr.getDisplayValue('sys_id');
+			data.jobList.push(jobs);
+				
+		}
+	
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 13:43:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>a8b5346f0f70b200e304059ce1050e88</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Job Search Details Widget</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_widget_a8b5346f0f70b200e304059ce1050e88</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-21 07:54:33</sys_updated_on>
+        <template><![CDATA[<div class="panel-body">
+  <div class="int-jobs-heading panel-heading">
+   	<h3>Seach results: {{data.searchText}}</h3>
+    <p> Total {{data.jobList.length}} job(s) found </p>
+  </div>
+  <div ng-repeat="job in data.jobList" class="int-job-holder">
+    <div class="int-details">
+      <span class="int-job-title">{{job.title}}</span> <span class="int-job-type">{{job.jobType}}</span><br/>
+      <span class="int-job-description">{{job.description}} </span><br/>
+      <span class="int-job-skill">Skills: {{::job.skills}}</span><br/>
+      <span class="int-job-location">Location: {{job.location}}</span><br/>
+    </div>
+    <div class="int-actions">
+    <button ng-click="jobEdit(job.jobId)" class="int-action-button btn btn-primary"><a class="int-link-button" ng-href="/ats?id=job_details&jobId={{job.jobId}}">View</a></button>
+    <button ng-click="applyJob(job.jobId)" class="int-action-button btn btn-primary"><a  class="int-link-button" ng-href="/ats?id=upload_resume&sys_id=942f7bb2db20f2406951d8c75e9619c4">Apply</a></button>
+    <!--
+    <a id="edit_button" class="button" type="button" ng-click = "jobEdit(job.jobId)" >Edit</a>
+     <a id="apply_button" class="button" type="button" ng-click = "applyJob(job.jobId)" ng-href="https://integrhythmincdemo1.service-now.com/recruitment_sp?id=home_applicant&job_category=Finance">Apply</a>
+  -->
+   </div>
+      <!--
+<a id="edit_button" class="button" type="button" ng-click = "jobEdit(job.jobId)" >Edit</a>
+<a id="apply_button" class="button" type="button" ng-click = "applyJob(job.jobId)" ng-href="https://integrhythmincdemo1.service-now.com/recruitment_sp?id=home_applicant&job_category=Finance">Apply</a>
+-->
+    <div class="spacer" style="clear: both;"></div>
+  </div>
+ </div>
+]]></template>
+    </sp_widget>
+</record_update>

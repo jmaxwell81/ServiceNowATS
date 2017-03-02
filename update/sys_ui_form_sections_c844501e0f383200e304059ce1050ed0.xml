@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="c844501e0f383200e304059ce1050ed0" sys_domain="global" table="x_figin_ats_job_category" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:04:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4044501e0f383200e304059ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_figin_ats_job_category" name="x_figin_ats_job_category" sys_domain="global" view="Default view">c844501e0f383200e304059ce1050ed0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_figin_ats_job_category" sys_domain="global" view="Default view">ee6358da0f383200e304059ce1050e9f</sys_ui_section>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-09 14:04:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_figin_ats_job_category</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:04:35</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c844501e0f383200e304059ce1050ed0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_figin_ats_job_category</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c844501e0f383200e304059ce1050ed0</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-09 14:04:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

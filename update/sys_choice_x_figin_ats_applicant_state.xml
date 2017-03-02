@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_figin_ats_applicant" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Applied</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>10</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:55:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9efd0120f783200e304059ce1050e6a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-09 14:55:44</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Screening</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>20</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:56:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a00e0120f783200e304059ce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-09 14:56:19</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interview Scheduled</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>30</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:56:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a20a0120f783200e304059ce1050e25</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-11 04:06:21</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hire</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>40</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:57:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1a40e4120f783200e304059ce1050e71</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-11 04:00:42</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>50</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:58:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e470e0120f783200e304059ce1050e70</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-11 03:51:01</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Hold</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>60</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:59:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c89028120f783200e304059ce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-09 14:59:20</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Offer Released</label>
+            <language>en</language>
+            <name>x_figin_ats_applicant</name>
+            <sequence>80</sequence>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 15:04:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bc1a0120f783200e304059ce1050e0c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-10 19:17:13</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_figin_ats_applicant</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>raju.koyagura</sys_created_by>
+            <sys_created_on>2017-02-09 14:55:44</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>11ff94de0f383200e304059ce1050e97</sys_id>
+            <sys_mod_count>22</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+            <sys_update_name>sys_choice_x_figin_ats_applicant_state</sys_update_name>
+            <sys_updated_by>raju.koyagura</sys_updated_by>
+            <sys_updated_on>2017-02-28 03:47:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

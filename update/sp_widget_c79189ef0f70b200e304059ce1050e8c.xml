@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope, $cookies) {
+  /* widget controller */
+  var c = this;
+	
+	
+	c.loginApplicant=function(){
+		
+		c.server.update().then(function (data){
+		//	alert("In.."+ data.redirectTarget);
+/*		if(data.redirectTarget)
+	window.location=data.redirectTarget;
+			
+			$cookies.put("applicantId",data.applicantId);
+		
+			var mycookie=$cookies.get("applicantId");
+				alert("Yoo.."+ data.applicantId)
+				console.log("Yoo.12.", mycookie);
+	*/	})
+	}
+
+	
+		
+				//console.log("yes..."+mycookie);
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>applicant_login_widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>Applicant Login Widget</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	
+ if(!input)
+	 return;
+	if(input){
+		gs.addInfoMessage("input.password="+input.password + "Email: "+input.email);
+	var gr=new GlideRecord('x_figin_ats_applicant');
+	//gr.addEncodedQuery('email='+input.email^'password='+input.password);
+	gr.addQuery("email", input.email);
+	//	gr.addQuery("name", input.password);
+	gr.query();
+		if(gr.next())
+			{
+				//var Encrypter = new GlideEncrypter();   
+//var decrypted = Encrypter.decrypt(gr.password_2);   
+				if(gr.getDisplayValue('password')==input.password)
+				gs.addInfoMessage("You are successfully logged in..."+ gr.getDisplayValue('password'));
+
+	//data.applicantId=gr.getDisplayValue('sys_id');
+//data.redirectTarget="/recruitment_sp?id=applicant_profile&&applicantId="+gr.sys_id;
+//gs.addInfoMessage("You are successfully logged in..."+gr.sys_id );
+				}
+		else
+		gs.addErrorMessage("Invalid email or password.");
+	}
+	else
+		gs.addErrorMessage("Please enter valida email.");
+
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-13 14:35:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c79189ef0f70b200e304059ce1050e8c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Applicant Login Widget</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sp_widget_c79189ef0f70b200e304059ce1050e8c</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-13 15:19:38</sys_updated_on>
+        <template><![CDATA[<div>
+  <form name="login">
+    
+  
+    <table width="100%">
+   <tr> <td>Email: </td><td><input type="email" ng-model="email.text" ng-required="required" class="form-control" ng-model="c.data.email"></td></tr>
+   <div role="alert">
+      <span class="error" ng-show="login.input.$error.required">
+        Required!</span>
+      <span class="error" ng-show="login.input.$error.email">
+        Not valid email!</span>
+    </div>
+       <tr> <td>Password: </td><td><input class="form-control" type="password" ng-model="c.data.password"></td></tr>
+  
+      <tr><td colspan="2" align="center"> <input class="btn btn-primary btn-block" ng-click="c.loginApplicant()" type="submit" value="Login"></td></tr>
+      <tr><td colspan="2" align="center">(or)</td></tr>
+      
+      </table>
+  </form>
+  <p/>
+  
+  <a ng-href="?id=applicant_registration"><input class="btn btn-primary btn-block" type="submit" value="Register">
+  </a></div>]]></template>
+    </sp_widget>
+</record_update>

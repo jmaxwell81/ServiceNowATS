@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_impex_entry">
+    <sys_impex_entry action="INSERT_OR_UPDATE">
+        <default_value/>
+        <field>cover_letter</field>
+        <map display_value="icalendar.x_figin_ats_applicant">d1c89cf20f707200e304059ce1050e6c</map>
+        <mapped_field>cover_letter</mapped_field>
+        <name>cover_letter</name>
+        <script/>
+        <sys_class_name>sys_impex_entry</sys_class_name>
+        <sys_created_by>raju.koyagura</sys_created_by>
+        <sys_created_on>2017-02-11 04:37:47</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7ca5647e0f707200e304059ce1050ec7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cover_letter</sys_name>
+        <sys_package display_value="ATS" source="x_figin_ats">959c40120f383200e304059ce1050e40</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="ATS">959c40120f383200e304059ce1050e40</sys_scope>
+        <sys_update_name>sys_impex_entry_7ca5647e0f707200e304059ce1050ec7</sys_update_name>
+        <sys_updated_by>raju.koyagura</sys_updated_by>
+        <sys_updated_on>2017-02-11 04:37:47</sys_updated_on>
+        <table>x_figin_ats_applicant</table>
+        <type>field</type>
+        <var_name/>
+    </sys_impex_entry>
+</record_update>
